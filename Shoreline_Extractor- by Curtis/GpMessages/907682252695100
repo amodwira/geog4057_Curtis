@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Sunday, May 4, 2025 10:01:03 AM</msg><msg code="0" type="0">No study area provided. Using full raster.</msg><msg code="1" type="100">Traceback (most recent call last):
+﻿  File "C:\Users\cdwira1\Downloads\MY GEOG PROGRAMMING WORK\Shoreline_Extractor\Shoreline_Extractor.pyt", line 134, in execute
+    green_band = arcpy.ia.ExtractBand(processed_raster, green_idx)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\ia\raster_functions.py", line 864, in ExtractBand
+    return Apply(in_raster=raster,
+           ^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\ia\_ia.py", line 136, in Apply
+    return arcgisscripting._ia.Apply(in_raster=in_raster,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿RuntimeError: Failed to apply Raster Function: 'ExtractBand' (The parameter is incorrect. 
+Parameter 'Raster' is missing or invalid. Bind failed in function 'Extract Band Function' [Extract Band Function].)
+﻿
+If you suspect this is an IPython 8.18.1 bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    %config Application.verbose_crash=True
+
+</msg><msg code="-2147467259" type="100">Failed to execute (Tool).</msg><msg code="0" type="3">Failed at Sunday, May 4, 2025 10:01:03 AM (Elapsed Time: 0.03 seconds)</msg></messages>

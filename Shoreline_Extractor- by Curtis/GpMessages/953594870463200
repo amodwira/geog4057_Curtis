@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Sunday, May 4, 2025 10:46:16 PM</msg><msg code="0" type="0">Study area reprojected.</msg><msg code="0" type="0">Input raster reprojected.</msg><msg code="0" type="0">Reprojected raster clipped to study area.</msg><msg code="0" type="0">MNDWI raster saved.</msg><msg code="0" type="0">Binary raster saved.</msg><msg code="0" type="0">Water polygons created (with simplification).</msg><msg code="0" type="0">Polygon geometry repaired.</msg><msg code="0" type="0">Filtered valid water polygons for conversion.</msg><msg code="0" type="0">Shoreline (unprojected) extracted.</msg><msg code="1" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\cdwira1\Downloads\MY GEOG PROGRAMMING WORK\Shoreline_Extractor\Shoreline_Extractor.pyt", line 248, in execute
+﻿    arcpy.DefineProjection_management(shoreline_raw_path, output_crs)
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 20319, in DefineProjection
+﻿    raise e
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 20315, in DefineProjection
+﻿    gp.DefineProjection_management(*gp_fixargs((in_dataset, coor_system), True))
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 532, in &lt;lambda&gt;
+﻿    return lambda *args: val(*gp_fixargs(args, True))
+﻿                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.
+ERROR 000732: Input Dataset or Feature Class: Dataset C:\Users\cdwira1\Downloads\MY GEOG PROGRAMMING WORK\Results\Shoooore_shoreline_raw.shp does not exist or is not supported
+Failed to execute (DefineProjection).
+
+</msg><msg code="-2147467259" type="100">Failed to execute (Tool).</msg><msg code="0" type="3">Failed at Sunday, May 4, 2025 10:53:21 PM (Elapsed Time: 7 minutes 5 seconds)</msg></messages>

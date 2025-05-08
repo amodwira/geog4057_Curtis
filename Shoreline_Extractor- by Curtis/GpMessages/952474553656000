@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Sunday, May 4, 2025 10:27:35 PM</msg><msg code="0" type="0">Study area reprojected.</msg><msg code="1" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\cdwira1\Downloads\MY GEOG PROGRAMMING WORK\Shoreline_Extractor\Shoreline_Extractor.pyt", line 190, in execute
+﻿    arcpy.Project_management(composite, projected_raster_path, output_crs)
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 20421, in Project
+﻿    raise e
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 20403, in Project
+﻿    gp.Project_management(
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 532, in &lt;lambda&gt;
+﻿    return lambda *args: val(*gp_fixargs(args, True))
+﻿                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.
+ERROR 000840: The value is not a Feature Layer.
+ERROR 000840: The value is not a Feature Dataset.
+ERROR 000840: The value is not a Scene Layer.
+ERROR 000840: The value is not a Building Scene Layer.
+ERROR 000840: The value is not a File.
+Failed to execute (Project).
+
+</msg><msg code="-2147467259" type="100">Failed to execute (Tool).</msg><msg code="0" type="3">Failed at Sunday, May 4, 2025 10:27:36 PM (Elapsed Time: 0.44 seconds)</msg></messages>

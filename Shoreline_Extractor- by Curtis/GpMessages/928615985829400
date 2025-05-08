@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Sunday, May 4, 2025 3:49:57 PM</msg><msg code="1" type="100">Traceback (most recent call last):
+﻿  File "C:\Users\cdwira1\Downloads\MY GEOG PROGRAMMING WORK\Shoreline_Extractor\Shoreline_Extractor.pyt", line 130, in execute
+    processed_raster = arcpy.Raster(composite)
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\sa\Raster.py", line 82, in __new__
+    return super().__new__(cls, in_raster, is_multidimensional)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿TypeError: expected a raster or layer name
+﻿
+If you suspect this is an IPython 8.18.1 bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    %config Application.verbose_crash=True
+
+</msg><msg code="-2147467259" type="100">Failed to execute (Tool).</msg><msg code="0" type="3">Failed at Sunday, May 4, 2025 3:49:57 PM (Elapsed Time: 0.02 seconds)</msg></messages>

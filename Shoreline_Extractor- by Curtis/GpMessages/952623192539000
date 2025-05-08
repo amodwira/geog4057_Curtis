@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Sunday, May 4, 2025 10:30:04 PM</msg><msg code="0" type="0">Study area reprojected.</msg><msg code="0" type="0">Input raster reprojected.</msg><msg code="0" type="0">Reprojected raster clipped to study area.</msg><msg code="1" type="100">﻿Traceback (most recent call last):
+﻿  File "C:\Users\cdwira1\Downloads\MY GEOG PROGRAMMING WORK\Shoreline_Extractor\Shoreline_Extractor.pyt", line 204, in execute
+﻿    green_raster = arcpy.Raster(f"{raster_path}/{green_band_name}")
+﻿                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\sa\Raster.py", line 82, in __new__
+﻿    return super().__new__(cls, in_raster, is_multidimensional)
+﻿           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿RuntimeError: ERROR 000732: Input Raster: Dataset C:\Users\cdwira1\Downloads\MY GEOG PROGRAMMING WORK\Results\Shorew_composite_projected.tif/B3 does not exist or is not supported
+</msg><msg code="-2147467259" type="100">Failed to execute (Tool).</msg><msg code="0" type="3">Failed at Sunday, May 4, 2025 10:35:11 PM (Elapsed Time: 5 minutes 6 seconds)</msg></messages>

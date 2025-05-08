@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Sunday, May 4, 2025 11:44:46 AM</msg><msg code="0" type="0">Raster clipped to study area.</msg><msg code="1" type="100">Traceback (most recent call last):
+﻿  File "C:\Users\cdwira1\Downloads\MY GEOG PROGRAMMING WORK\Shoreline_Extractor\Shoreline_Extractor.pyt", line 134, in execute
+    raster_path = composite.catalogPath
+                  ^^^^^^^^^^^^^^^^^^^^^
+﻿AttributeError: ValueObject: Get attribute catalogPath does not exist
+﻿
+If you suspect this is an IPython 8.18.1 bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    %config Application.verbose_crash=True
+
+</msg><msg code="-2147467259" type="100">Failed to execute (Tool).</msg><msg code="0" type="3">Failed at Sunday, May 4, 2025 11:45:16 AM (Elapsed Time: 29.84 seconds)</msg></messages>
